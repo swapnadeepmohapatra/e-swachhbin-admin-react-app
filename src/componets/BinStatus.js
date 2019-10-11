@@ -52,8 +52,8 @@ class BinStatus extends React.Component {
             style={{ marginBottom: 50 }}
             alt="Bin Image"
           />
-          <h2>{this.props.perc}</h2>
           <h2>{getBinStatusText(this.props.perc)}</h2>
+          <h2>{this.props.perc} %</h2>
         </div>
       </div>
     );
